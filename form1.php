@@ -17,3 +17,5 @@ require "receiver.php"; /*pode ser usado "include" no lugar de require porém
 é preferivel require pois se der um erro na execução do arquivo solicitado, com require
 ele para comletamente a ação que está sendo executada.*/
 ?>
+
+text for test purposes only

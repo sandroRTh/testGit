@@ -1,9 +1,8 @@
-<link rel="stylesheet" type="text/css" href="style.php">
 <body>
 <?php
 	$variavel0 = array(
-		"nome" => "Sandro",
- 		"sobrenome" => "Thomé",
+		"nome" => "Fulano",
+ 		"sobrenome" => "da Silva",
  		"idade" => 28,
  		"atividade" => "estudando"
 		);
@@ -13,7 +12,7 @@
 ?><br>
 
 <?php
-	echo $variavel0["nome"].", não sabe se vira ".$variavel1[0].", ou se vira ".$variavel1[1].".";
+	echo $variavel0["nome"].", não sabe se vira ".$variavel1[0].", ou se vira ".$variavel1[1], $variavel0["sobrenome"].".";
 ?><br>
 
 <?php
@@ -31,4 +30,6 @@
 
 	echo "O nome digitado foi, ".$nome.".";
 ?>
+
+text for test purposes only
 </body>

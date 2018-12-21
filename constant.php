@@ -4,8 +4,8 @@
 	echo "O nome do meu site é ".URL;
 ?><br>
 <?php
-	$nome = "Sandro";
-	 if ($nome == "Sandro") {
+	$nome = "Fulano";
+	 if ($nome == "Fulano") {
 	 		echo "Meu nome está correto.";
 	 }
 	 else {
@@ -15,7 +15,7 @@
 <br>
 
 <?php
-	$nomes = array ("Sandro", "Luan");
+	$nomes = array ("Fulano", "Beltrano");
 
 	echo $nomes[0]." ";
 
@@ -29,12 +29,14 @@
 <br>
 
 <?php
-	$name =  "Sandro";
-	$age = 28;
-	if ($name == "Sandro" && $age == 28) {
+	$name =  "Fulano";
+	$age = 90;
+	if ($name == "Fulano" && $age == 90) {
 		echo "Sou eu.";
 	}
 	else {
 		echo "Não sou eu.";
 	}
 ?>
+
+text for test purposes only

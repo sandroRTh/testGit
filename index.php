@@ -11,7 +11,7 @@ $ligado = true; // boolean variable (verdadeiro/falso)
 $grupos = array(1, 2, 3, 4); //array (variavel composta)
 
 
-echo "Meu nome é: ".$nome." ".$sobrenome." e eu tenho ".$idade." anos.";
+echo "Meu nome é: ".$nome." ".$sobrenome." e eu tenho ".$idade." anos.</br>";
 
 //outra forma de gerar o mesmo resultado acima, na tela
 

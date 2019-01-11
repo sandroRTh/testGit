@@ -1,26 +1,39 @@
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Página Inicial</title>
-	<script type="text/javascript" src="assets/js/script.js"></script>
-</head>
-</head>
-<body>
-	Página HTML de JAVASCRIPT.<br><br>
+	<head>
+		<meta charset="utf-8">
+		<title>Página Inicial</title>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</head>
+	<body>
+		Página HTML de JAVASCRIPT.<br><br>
 
-	<button onclick="window.location.href = 'http://www.google.com';">Ir para "google.com"</button>
-	<button onclick="window.location.href = window.location.href;">Atualizar página</button><br><br>
-	<hr>
-	<div id="area">Clique em, exeutar ação e depois em atualizar a página.</div><br><br>
+		<button onclick="window.location.href = 'http://www.google.com';">Ir para "google.com"</button>
+		<button onclick="window.location.href = window.location.href;">Atualizar página</button><br><br>
+		<hr>
+		<div id="area">Clique em, exeutar ação e depois em atualizar a página.</div><br><br>
 
 
-	<!--
-		<button onclick="document.getElementById('area').innerHTML = prompt('Qual é o seu Nome?')">Executar ação.</button>
-	-->
+		<!--
+			<button onclick="document.getElementById('area').innerHTML = prompt('Qual é o seu Nome?')">Executar ação.</button>
+		-->
 		<button onclick="execAction()">Executar ação.</button><br><br>
-<hr>
+		<hr>
 		<div id="outra">Outro exemplo...</div><br><br>
 
 
 		<button onclick="mestre('Sandro')">Executar ação.</button>
-</body>
+		<br>
+		<br>
+		<hr>
+		<!-- Utilizando funções javascrip com inserção de dados pelo usuário-->
+		<h1>Preenchendo dados...</h1>
+		<br>
+		<input type="text" id="data">
+		<button onclick="addInfo()">Clique para inserir seus dados</button>
+		<ul id="info">
+			<li>Nome:</li>
+			<li>Nome do meio:</li>
+			<li>Sobrenome:</li>
+		</ul>
+	</body>
+</html>

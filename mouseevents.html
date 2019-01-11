@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Página Inicial</title>
+		<script type="text/javascript" src="assets/js/mouseevents.js"></script>
+	</head>
+	<body>
+		<h3>Antes de utilizar os botões pressione CTRL+SHIFT+I e selecione console.</h3>
+		<button onMouseDown="mouseclick()">Botão de teste.</button>
+		<br>
+		<br>
+		<button onMouseUp="looseclick()">Clique e segure.</button><!--onMouseUp é semelhante a onMouseClick-->
+		<br>
+		<br>
+		<button onMouseOver="mouseover()">Passe o Mouse.</button>
+		<br>
+		<br>
+		<button onMouseOut="mouseout()">Passe o Mouse.</button>
+		<br>
+		<br>
+		<button onMouseMove="mousemove()">Mova o mouse sobre.</button>
+		<br>
+		<br>
+		<button onContextMenu="return rightclick()">Clique direito.</button>
+		<br>
+		<br>
+		<button onDblClick="doubleclick()">Clique duplo.</button>
+	</body>
+</html>

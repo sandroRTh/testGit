@@ -1,0 +1,24 @@
+.form {
+	margin: auto;
+	background-color: #ABCDEF;
+	height: 250px;
+	width: 250px;
+}
+
+form {
+	font-weight: bold;
+	padding: 40px;
+}
+
+.gradient {
+	color: yellow;
+	font-family: arial;
+	font-variant: small-caps;
+	font-weight: bold;
+	background:linear-gradient (white, blue, black);
+	height: 300px;
+	width: 600px;
+	margin-top: 10px;
+	padding-top: 20px;
+	text-align: center;
+}

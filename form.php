@@ -19,11 +19,13 @@
 <hr>
 <form method="POST">
 	Email:<br>
-	<input type="email" name="email"><br><br>
-
+	<input type="email" name="email">
+	<br>
+	<br>
 	Senha:<br>
-	<input type="password" name="passwd"><br><br>
-
+	<input type="password" name="passwd">
+	<br>
+	<br>
 	<input type="submit" name="send">
 </form>
 <?php

@@ -1,0 +1,46 @@
+@keyframes anim {
+	0% {background-color: #0C63CF; top: 0px; left: 0px;
+		box-shadow: 50px 50px 8px #888888
+	}
+	25% {background-color: #05ACD7; top: 0px; left: 400px;
+		box-shadow: 50px 0px 8px #888888	
+	}
+	50% {background-color: #0EBC6B; top: 400px; left: 400px;
+		box-shadow: 50px -50px 8px #888888
+	}
+	75% {background-color: #16AE16; top: 400px; left: 0px;
+		box-shadow: 0px -50px 8px #888888
+	}
+	100% {background-color: #0C63CF; top: 0px; left: 0px;
+		box-shadow: -50px -50px 8px #888888
+	}
+}
+
+body {
+	margin: 0;
+}
+
+.exemplo {
+	animation-name: anim;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: 2;
+	background: #0C63CF;
+	border-radius: 200px;
+	box-shadow: 50px 50px 8px #888888;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: absolute;
+	height: 400px;
+	width: 400px;
+}
+
+.text {
+	color: #095C04;
+	font-family: arial; 
+	font-size: 20px;
+	font-weight:  bold;
+	margin-left: 100px;
+	margin-top: 850px;
+	text-shadow: 5px 5px 1px #888888;
+}

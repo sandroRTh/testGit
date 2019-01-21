@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+
+#animation {
+	height: 200px;
+	width: 200px;
+	background: green;
+	margin: auto;
+	margin-top: 100px;
+	transition: all 1s linear;
+	text-align: center
+}
+
+#animation:hover {
+	color: #FFFFFF;
+	cursor: pointer;
+	background: blue;
+	border-radius: 15px;
+	width: 450px;
+}
+
+a {
+	color: #000000;
+	font-family: arial;
+	font-size: 20px;
+	margin-left: 250px;
+	transition: all 2s linear;
+}
+
+a:hover {
+	color: #FF0000;
+	font-size: 35px;
+	font-weight: bolder;
+}

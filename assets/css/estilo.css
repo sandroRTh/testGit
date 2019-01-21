@@ -1,0 +1,120 @@
+* {
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	height: 50px;
+	background-color: #353535;
+}
+
+.topoint {
+	color: #FFFFFF;
+	margin: auto;
+	width: 1000px;
+}
+
+.logo {
+	float: left;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.menu {
+	float: right;
+
+}
+
+.menu ul,
+.menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.menu li:hover {
+	background-color: #3480C1;
+}
+
+.banner {
+	background-color: #3480C1;
+	height: 300px;
+}
+
+.bannerint {
+	margin: auto;
+	width: 1000px;
+}
+
+.bannerintesq {
+	float: left;
+}
+
+.bannerintdir {
+	float: right;
+	height: 300px;
+	margin-right: 55px;
+}
+
+.frase0 {
+	color: #FFFFFF;
+	font-size: 48px;
+	margin-top: 60px;
+}
+
+.frase1 {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.botao {
+	border-radius: 5px;
+	background-color: #FFC001;
+	cursor: pointer;
+	font-size: 20px;
+	height: 56px;
+	line-height: 56px;
+	margin-top: 20px;
+	text-align: center;
+	width: 282px;
+}
+
+.contint {
+	margin: auto;
+	width: 1000px;
+}
+
+.outros {
+	font-size: 20px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+}
+
+.fotos img {
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.rodape {
+	background-color: #3480C1;
+	color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 40px;
+	text-align: center;
+}

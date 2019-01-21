@@ -16,7 +16,8 @@ function execAction() {
 
 	area.innerHTML = texto; 
 }
-function mestre(nome) {
+
+function mestre(nome, sobrenome) {
 	var outra = document.getElementById('outra');
 	var texto1 = prompt("Qual é o seu Sobrenome?");
 

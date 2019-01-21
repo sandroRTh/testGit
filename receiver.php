@@ -1,4 +1,6 @@
 <?php
+
+//Arquivo usado em conjunto com form1.php
 	if (isset($_POST["email"]) && !empty($_POST["email"])) {
 		$email = $_POST["email"];
 		echo "O email enviado foi: ".$email;

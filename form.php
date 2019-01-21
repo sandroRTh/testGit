@@ -19,9 +19,14 @@
 <hr>
 <form method="POST">
 	Email:<br>
+<<<<<<< HEAD
 	<input type="email" name="email">
 	<br>
 	<br>
+=======
+	<input type="email" name="email" value='<?php echo $_POST["email"]; ?>'><br><br>
+
+>>>>>>> 6a7386d7778a7c6a50a3d93778ff959e24738968
 	Senha:<br>
 	<input type="password" name="passwd">
 	<br>
@@ -29,5 +34,5 @@
 	<input type="submit" name="send">
 </form>
 <?php
-	
+	echo "Teste edição.";
 ?>

@@ -27,5 +27,5 @@
 	<input type="submit" name="send">
 </form>
 <?php
-	
+	echo "Teste edição.";
 ?>
